@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		329185BC993BFE0689125FE6 /* Pods_HeartCatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C1592DBC3C6458B5D23A33 /* Pods_HeartCatch.framework */; };
 		876C324F255BD3C400C01141 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876C324E255BD3C400C01141 /* AppDelegate.swift */; };
 		876C3251255BD3C400C01141 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876C3250255BD3C400C01141 /* SceneDelegate.swift */; };
 		876C3253255BD3C400C01141 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876C3252255BD3C400C01141 /* ViewController.swift */; };
@@ -22,6 +23,13 @@
 		876C3278255BD3C500C01141 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876C3277255BD3C500C01141 /* NotificationController.swift */; };
 		876C327A255BD3C500C01141 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876C3279255BD3C500C01141 /* ComplicationController.swift */; };
 		876C327C255BD3C600C01141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876C327B255BD3C600C01141 /* Assets.xcassets */; };
+		876C3292255BD45600C01141 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876C3291255BD45600C01141 /* HealthKit.framework */; };
+		876C3295255BD47D00C01141 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876C3294255BD47D00C01141 /* HealthKit.framework */; };
+		876C329A255BD73E00C01141 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 876C3299255BD73E00C01141 /* GoogleService-Info.plist */; };
+		876C329B255BD73E00C01141 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 876C3299255BD73E00C01141 /* GoogleService-Info.plist */; };
+		876C329C255BD73E00C01141 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 876C3299255BD73E00C01141 /* GoogleService-Info.plist */; };
+		A65E2ECE57FDD69DA2118B40 /* Pods_HeartCatch_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09108E95FE040C46758BFB00 /* Pods_HeartCatch_WatchKit_App.framework */; };
+		D99D699246AF72F898A639C4 /* Pods_HeartCatch_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C38D654174EC5EFC335E02 /* Pods_HeartCatch_WatchKit_Extension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +75,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		09108E95FE040C46758BFB00 /* Pods_HeartCatch_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeartCatch_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C1592DBC3C6458B5D23A33 /* Pods_HeartCatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeartCatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B6036689D7BFA3534FA43F /* Pods-HeartCatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeartCatch.debug.xcconfig"; path = "Target Support Files/Pods-HeartCatch/Pods-HeartCatch.debug.xcconfig"; sourceTree = "<group>"; };
+		4681C8621B1537532B3F11D3 /* Pods-HeartCatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeartCatch.release.xcconfig"; path = "Target Support Files/Pods-HeartCatch/Pods-HeartCatch.release.xcconfig"; sourceTree = "<group>"; };
+		617CC6A8951DF99AF1537D55 /* Pods-HeartCatch WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeartCatch WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-HeartCatch WatchKit Extension/Pods-HeartCatch WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		876C324B255BD3C400C01141 /* HeartCatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartCatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		876C324E255BD3C400C01141 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		876C3250255BD3C400C01141 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +100,16 @@
 		876C327B255BD3C600C01141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		876C327D255BD3C600C01141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		876C327E255BD3C600C01141 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		876C328F255BD45600C01141 /* HeartCatch WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "HeartCatch WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		876C3291255BD45600C01141 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		876C3293255BD47D00C01141 /* HeartCatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HeartCatch.entitlements; sourceTree = "<group>"; };
+		876C3294255BD47D00C01141 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.1.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		876C3299255BD73E00C01141 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8795E266255D4287008E5107 /* HeartCatch WatchKit App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "HeartCatch WatchKit App.entitlements"; sourceTree = "<group>"; };
+		C7C38D654174EC5EFC335E02 /* Pods_HeartCatch_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeartCatch_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99A977D25DA0C0C5879D82A /* Pods-HeartCatch WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeartCatch WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-HeartCatch WatchKit App/Pods-HeartCatch WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		D980CE4C854D8DA41467690C /* Pods-HeartCatch WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeartCatch WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-HeartCatch WatchKit Extension/Pods-HeartCatch WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		F8F501DBE52C619D45C2A33D /* Pods-HeartCatch WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeartCatch WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-HeartCatch WatchKit App/Pods-HeartCatch WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +117,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				876C3295255BD47D00C01141 /* HealthKit.framework in Frameworks */,
+				329185BC993BFE0689125FE6 /* Pods_HeartCatch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +126,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				876C3292255BD45600C01141 /* HealthKit.framework in Frameworks */,
+				D99D699246AF72F898A639C4 /* Pods_HeartCatch_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA04C628CC4F7E17FFD585E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65E2ECE57FDD69DA2118B40 /* Pods_HeartCatch_WatchKit_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +149,8 @@
 				876C3263255BD3C400C01141 /* HeartCatch WatchKit App */,
 				876C3272255BD3C500C01141 /* HeartCatch WatchKit Extension */,
 				876C324C255BD3C400C01141 /* Products */,
+				876C3290255BD45600C01141 /* Frameworks */,
+				C98F5883A0609C1321519A68 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +167,7 @@
 		876C324D255BD3C400C01141 /* HeartCatch */ = {
 			isa = PBXGroup;
 			children = (
+				876C3293255BD47D00C01141 /* HeartCatch.entitlements */,
 				876C324E255BD3C400C01141 /* AppDelegate.swift */,
 				876C3250255BD3C400C01141 /* SceneDelegate.swift */,
 				876C3252255BD3C400C01141 /* ViewController.swift */,
@@ -137,6 +175,7 @@
 				876C3257255BD3C400C01141 /* Assets.xcassets */,
 				876C3259255BD3C400C01141 /* LaunchScreen.storyboard */,
 				876C325C255BD3C400C01141 /* Info.plist */,
+				876C3299255BD73E00C01141 /* GoogleService-Info.plist */,
 			);
 			path = HeartCatch;
 			sourceTree = "<group>";
@@ -144,6 +183,7 @@
 		876C3263255BD3C400C01141 /* HeartCatch WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				8795E266255D4287008E5107 /* HeartCatch WatchKit App.entitlements */,
 				876C3264255BD3C400C01141 /* Interface.storyboard */,
 				876C3267255BD3C500C01141 /* Assets.xcassets */,
 				876C3269255BD3C500C01141 /* Info.plist */,
@@ -154,6 +194,7 @@
 		876C3272255BD3C500C01141 /* HeartCatch WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				876C328F255BD45600C01141 /* HeartCatch WatchKit Extension.entitlements */,
 				876C3273255BD3C500C01141 /* InterfaceController.swift */,
 				876C3275255BD3C500C01141 /* ExtensionDelegate.swift */,
 				876C3277255BD3C500C01141 /* NotificationController.swift */,
@@ -165,6 +206,31 @@
 			path = "HeartCatch WatchKit Extension";
 			sourceTree = "<group>";
 		};
+		876C3290255BD45600C01141 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				876C3294255BD47D00C01141 /* HealthKit.framework */,
+				876C3291255BD45600C01141 /* HealthKit.framework */,
+				16C1592DBC3C6458B5D23A33 /* Pods_HeartCatch.framework */,
+				09108E95FE040C46758BFB00 /* Pods_HeartCatch_WatchKit_App.framework */,
+				C7C38D654174EC5EFC335E02 /* Pods_HeartCatch_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C98F5883A0609C1321519A68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22B6036689D7BFA3534FA43F /* Pods-HeartCatch.debug.xcconfig */,
+				4681C8621B1537532B3F11D3 /* Pods-HeartCatch.release.xcconfig */,
+				C99A977D25DA0C0C5879D82A /* Pods-HeartCatch WatchKit App.debug.xcconfig */,
+				F8F501DBE52C619D45C2A33D /* Pods-HeartCatch WatchKit App.release.xcconfig */,
+				617CC6A8951DF99AF1537D55 /* Pods-HeartCatch WatchKit Extension.debug.xcconfig */,
+				D980CE4C854D8DA41467690C /* Pods-HeartCatch WatchKit Extension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -172,10 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 876C3289255BD3C600C01141 /* Build configuration list for PBXNativeTarget "HeartCatch" */;
 			buildPhases = (
+				AD9D1136546A0939A2DF3942 /* [CP] Check Pods Manifest.lock */,
 				876C3247255BD3C400C01141 /* Sources */,
 				876C3248255BD3C400C01141 /* Frameworks */,
 				876C3249255BD3C400C01141 /* Resources */,
 				876C3288255BD3C600C01141 /* Embed Watch Content */,
+				E6343D9D68B91F567623DB9F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -191,8 +259,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 876C3285255BD3C600C01141 /* Build configuration list for PBXNativeTarget "HeartCatch WatchKit App" */;
 			buildPhases = (
+				BFE60F42108974243231A8C2 /* [CP] Check Pods Manifest.lock */,
 				876C325D255BD3C400C01141 /* Resources */,
 				876C3284255BD3C600C01141 /* Embed App Extensions */,
+				BA04C628CC4F7E17FFD585E8 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -208,6 +278,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 876C3281255BD3C600C01141 /* Build configuration list for PBXNativeTarget "HeartCatch WatchKit Extension" */;
 			buildPhases = (
+				333734C3A8C099A76CC53781 /* [CP] Check Pods Manifest.lock */,
 				876C326A255BD3C500C01141 /* Sources */,
 				876C326B255BD3C500C01141 /* Frameworks */,
 				876C326C255BD3C500C01141 /* Resources */,
@@ -267,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				876C325B255BD3C400C01141 /* LaunchScreen.storyboard in Resources */,
+				876C329A255BD73E00C01141 /* GoogleService-Info.plist in Resources */,
 				876C3258255BD3C400C01141 /* Assets.xcassets in Resources */,
 				876C3256255BD3C400C01141 /* Main.storyboard in Resources */,
 			);
@@ -278,6 +350,7 @@
 			files = (
 				876C3268255BD3C500C01141 /* Assets.xcassets in Resources */,
 				876C3266255BD3C400C01141 /* Interface.storyboard in Resources */,
+				876C329B255BD73E00C01141 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,10 +359,97 @@
 			buildActionMask = 2147483647;
 			files = (
 				876C327C255BD3C600C01141 /* Assets.xcassets in Resources */,
+				876C329C255BD73E00C01141 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		333734C3A8C099A76CC53781 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeartCatch WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD9D1136546A0939A2DF3942 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeartCatch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFE60F42108974243231A8C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeartCatch WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6343D9D68B91F567623DB9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeartCatch/Pods-HeartCatch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeartCatch/Pods-HeartCatch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HeartCatch/Pods-HeartCatch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		876C3247255BD3C400C01141 /* Sources */ = {
@@ -469,8 +629,10 @@
 		};
 		876C3282255BD3C600C01141 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 617CC6A8951DF99AF1537D55 /* Pods-HeartCatch WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "HeartCatch WatchKit Extension/HeartCatch WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6JMVH873U6;
 				INFOPLIST_FILE = "HeartCatch WatchKit Extension/Info.plist";
@@ -491,8 +653,10 @@
 		};
 		876C3283255BD3C600C01141 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D980CE4C854D8DA41467690C /* Pods-HeartCatch WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "HeartCatch WatchKit Extension/HeartCatch WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6JMVH873U6;
 				INFOPLIST_FILE = "HeartCatch WatchKit Extension/Info.plist";
@@ -514,10 +678,12 @@
 		};
 		876C3286255BD3C600C01141 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C99A977D25DA0C0C5879D82A /* Pods-HeartCatch WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HeartCatch WatchKit App/HeartCatch WatchKit App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6JMVH873U6;
 				IBSC_MODULE = HeartCatch_WatchKit_Extension;
@@ -534,10 +700,12 @@
 		};
 		876C3287255BD3C600C01141 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8F501DBE52C619D45C2A33D /* Pods-HeartCatch WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HeartCatch WatchKit App/HeartCatch WatchKit App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6JMVH873U6;
 				IBSC_MODULE = HeartCatch_WatchKit_Extension;
@@ -555,9 +723,11 @@
 		};
 		876C328A255BD3C600C01141 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22B6036689D7BFA3534FA43F /* Pods-HeartCatch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HeartCatch/HeartCatch.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6JMVH873U6;
 				INFOPLIST_FILE = HeartCatch/Info.plist;
@@ -576,9 +746,11 @@
 		};
 		876C328B255BD3C600C01141 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4681C8621B1537532B3F11D3 /* Pods-HeartCatch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HeartCatch/HeartCatch.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6JMVH873U6;
 				INFOPLIST_FILE = HeartCatch/Info.plist;

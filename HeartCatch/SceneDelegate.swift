@@ -1,13 +1,16 @@
 //
 //  SceneDelegate.swift
-//  HeartCatch
+//  Buruburu
 //
-//  Created by 畑穂乃香 on 2020/11/11.
+//  Created by ylab_6th on 2020/11/06.
 //
 
 import UIKit
+import WatchConnectivity
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
+    /*let watchManager = WatchManager.shared
+    watchManager.initWcSession()*/
 
     var window: UIWindow?
 
@@ -49,4 +52,5 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
 }
+
 

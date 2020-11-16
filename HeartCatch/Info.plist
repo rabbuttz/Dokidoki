@@ -62,5 +62,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSHealthShareUsageDescription</key>
+	<string>for share your heartrate</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>for share your heartrate</string>
 </dict>
 </plist>

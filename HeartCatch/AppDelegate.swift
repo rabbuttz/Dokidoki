@@ -1,21 +1,26 @@
 //
 //  AppDelegate.swift
-//  HeartCatch
+//  Buruburu
 //
-//  Created by 畑穂乃香 on 2020/11/11.
+//  Created by ylab_6th on 2020/11/06.
 //
-
 import UIKit
+import Firebase
 
-@main
+//var hisHeartRate:Double = 0
+
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+  var window: UIWindow?
 
+  func application(_ application: UIApplication,
+    didFinishLaunchingWithOptions launchOptions:
+        [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    FirebaseApp.configure()
+    return true
+  }
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
-    }
 
     // MARK: UISceneSession Lifecycle
 
@@ -33,4 +38,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
+
 
